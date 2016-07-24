@@ -1,0 +1,27 @@
+{
+	"name": "hyperdev-mongodb",
+	"version": "0.0.1",
+	"description": "Example app interacting with MongoDB",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.12.4",
+		"mongodb": "*",
+		"sequelize": "^4.0.0-0",
+		"pg":"*"
+	},
+	"engines": {
+		"node": "5.4.1"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express",
+		"mongodb",
+		"database",
+		"sequelize"
+	],
+	"license": "MIT"
+}
